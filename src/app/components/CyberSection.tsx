@@ -52,7 +52,7 @@ function CyberSection() {
             <button className="cyber-button">Entrar na Simulação</button>
           </div>
           <img
-            src="/cidademolhada.webp"
+            src="/cidademolhada.png"
             className="cyberImg"
             alt="Ambiente Cyberpunk"
           />
