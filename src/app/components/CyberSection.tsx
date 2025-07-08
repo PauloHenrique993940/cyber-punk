@@ -5,7 +5,7 @@ function CyberSection() {
     <>
       <section className="cyber-section">
         <div className="cyber-content">
-          <img src="/image2.png" alt="Ambiente " />
+          <img src="/Rectangle.png" alt="Ambiente " className="cyberImg" style={{ marginRight: "30px" }} />
           <div>
             <h2>Universo Secreto</h2>
             <p>
