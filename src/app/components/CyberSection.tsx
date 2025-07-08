@@ -101,7 +101,7 @@ function CyberSection() {
             <button className="cyber-button">Visitar o Laboratório</button>
           </div>
           <img
-            src="/Lab.jpg"
+            src="/laboratorio.jpg"
             alt="Ruas neon à noite"
             style={{ marginRight: "30px" }}
           />
