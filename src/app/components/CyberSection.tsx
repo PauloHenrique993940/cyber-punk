@@ -5,7 +5,7 @@ function CyberSection() {
     <>
       <section className="cyber-section">
         <div className="cyber-content">
-          <img src="/image2.png" alt="Ambiente Cyberpunk" />
+          <img src="/image2.png" alt="Ambiente " />
           <div>
             <h2>Universo Secreto</h2>
             <p>
