@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.cyber-section {
+    background-color: #000000;
+    color: #00ffe0;
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 2px solid #ff00ff;
+    border-bottom: 2px solid #ff00ff;
+    box-shadow: 0 0 20px #00ffe0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cyber-content {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cyber-content h2 {
+    font-size: 3rem;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+    margin-bottom: 20px;
+}
+
+.cyber-content p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.cyberImg {
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.cyber-button {
+    background-color: #00ffe0;
+    color: #0f0f0f;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #00ffe0, 0 0 30px #00ffe0;
+}
+
+.cyber-button:hover {
+    background-color: #ff00ff;
+    color: white;
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+}
+
+@media (max-width: 768px) {
+    .cyber-content {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cyber-content h2 {
+        font-size: 2rem;
+    }
+
+    .cyber-content p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+
+    .cyberImg {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .cyber-button {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}

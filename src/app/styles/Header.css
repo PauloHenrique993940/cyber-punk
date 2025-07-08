@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.cyberpunk-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  background: #0f0f0f;
+  border-bottom: 2px solid #00ffe0;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffe0;
+  box-shadow: 0 0 15px #00ffe0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #00ffe0;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.cta-button {
+  background-color: #ff00ff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.cta-button:hover {
+  background-color: #00ffe0;
+  color: #0f0f0f;
+  box-shadow: 0 0 20px #00ffe0, 0 0 40px #00ffe0;
+}
+
+/* ---------------------------- */
+/* 📱 Responsivo para telas menores */
+@media (max-width: 768px) {
+  .cyberpunk-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .cta-button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
