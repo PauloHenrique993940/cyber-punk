@@ -1,4 +1,4 @@
-
+import React from "react";
 import CyberSection from "./components/CyberSection";
 import Features from "./components/Featurs";
 import Footer from "./components/Footer";

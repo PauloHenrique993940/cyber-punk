@@ -65,6 +65,15 @@
         width: 100%;
     }
 
+    .cyber-content div {
+        padding: 30px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
     .cyber-content h2 {
         font-size: 2rem;
     }

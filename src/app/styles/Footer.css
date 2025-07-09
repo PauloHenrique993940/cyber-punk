@@ -50,7 +50,10 @@ copyright {
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
   .footer-links {
-    flex-direction: column;
-    gap: 40px;
+    display: block;
+    text-align: left;
+
   }
+   
+ 
 }
